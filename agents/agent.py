@@ -9,7 +9,7 @@ from langchain.agents import (
     AgentExecutor,
 )
 from langchain import hub
-from tool import get_profile_url_tavily   
+from agents.tool import get_profile_url_tavily      
 import os
 from dotenv import load_dotenv 
 
@@ -52,4 +52,4 @@ def lookup(name: str) -> str:
 
 
 if __name__ == "__main__":
-    print(lookup(name="Eden Marco ")) 
+    print(lookup(name="Eden Marco udemy "))  
