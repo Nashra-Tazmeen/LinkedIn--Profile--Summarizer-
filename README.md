@@ -1,5 +1,7 @@
 ### Project Overview
 
+Developed an LLM-powered application using LangChain, called "Ice Breaker.The application captures user input (e.g., name) and scrapes LinkedIn profiles for relevant informatio and Generates personalized summaries based on designed standards for professional outreach. 
+
 This application is designed to leverage **LangChain**, a powerful framework for building applications that utilize large language models (LLMs), to automate the process of scraping LinkedIn profile data. By integrating **Proxycurl**, the system can extract detailed information from LinkedIn URLs, allowing users to gather relevant data effectively.
 
 ### Key Features
@@ -53,7 +55,4 @@ This application is designed to leverage **LangChain**, a powerful framework for
     
     -   The validated data is then formatted and returned to the user, providing them with a comprehensive view of the LinkedIn profiles they inquired about.
 
-### Conclusion
-
-This application harnesses the capabilities of **LangChain**, **Proxycurl**, and **Tavily** to create a robust system for automating LinkedIn profile data scraping. By integrating these technologies, it streamlines the process of data extraction, ensuring accuracy and relevance in the information retrieved.
 
